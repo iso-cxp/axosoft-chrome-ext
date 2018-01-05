@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Axosoft 'Update Remaining Estimate' unchecker",
+    "description": "Update Remaining Estimate unchecker",
+    "version": "1.0",
+    "icons": {
+        "64": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*.axosoft.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
